@@ -17,9 +17,10 @@ public class Roulette5Tentativi {
 		
 		while (index<5) {
 			System.out.println("Inserisci la tua puntata:");
+			// System.out.println(input2); quando voglio vincere
 			int input=keyScanner.nextInt();
 			
-			if (input<=36 && input>=0) {
+			if (input<=36 && input>0) {
 				
 				if (input==input2) {
 					System.out.println("Hai vinto. LMAOOOO");
